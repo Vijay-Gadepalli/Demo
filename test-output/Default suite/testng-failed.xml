@@ -8,6 +8,8 @@
           <include name="teardown"/>
           <include name="logintest"/>
           <include name="setup"/>
+          <include name="LoginpageTitleTest"/>
+          <include name="CRMLogoTest"/>
         </methods>
       </class> <!-- com.qa.testcases.TestLoginPage -->
     </classes>
