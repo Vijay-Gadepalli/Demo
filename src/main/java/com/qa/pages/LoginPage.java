@@ -47,10 +47,5 @@ public class LoginPage extends TestBase {
 		Thread.sleep(2000);
 		LoginButton.click();
 		return new HomePage();		
-	}
-	
-
-	
-	
-	
+	}	
 }
