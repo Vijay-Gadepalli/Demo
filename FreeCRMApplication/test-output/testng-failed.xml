@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM]">
+  <test name="functionality check(failed)">
+    <classes>
+      <class name="com.qa.testcases.TestHomePage">
+        <methods>
+          <include name="set_up"/>
+          <include name="tear_down"/>
+          <include name="Username_label_test"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TestHomePage -->
+    </classes>
+  </test> <!-- functionality check(failed) -->
+</suite> <!-- Failed suite [FreeCRM] -->

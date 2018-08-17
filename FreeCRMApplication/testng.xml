@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRM">
+  <test name="functionality check">
+    <classes>
+      <class name="com.qa.testcases.TestLoginPage"/>
+      <class name="com.qa.testcases.TestHomePage"/>
+    </classes>
+  </test> <!-- functionality check -->
+</suite> <!-- FreeCRM -->
